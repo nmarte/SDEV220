@@ -1,6 +1,7 @@
 '''
 Module 2 Lab - Case Study: if...else and while
 Author: Nelson Marte
+Program Name and Version: gpa_finder v0.1
 completed 03-31-2025
 Assignment:
 Write a Python app that will accept student names and GPAs and test if the student qualifies for either the Dean's List or the Honor Roll. Your app will:
@@ -16,7 +17,6 @@ Your name
 The file name for your app
 A brief description of what your app will do
 '''
-# Initialize Variables
 
 while True:
     l_name = input("Please enter the student's last name [or enter 'zzz' to quit]: ")
