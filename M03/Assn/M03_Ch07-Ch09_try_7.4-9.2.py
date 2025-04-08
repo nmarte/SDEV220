@@ -52,6 +52,20 @@ print(good(names))
 #    if i % 2 != 0:
 #        print(i)
 
-def get_odds(n):
-    if n % 2 != 0:
-        print(n)
+#def get_odds(n):
+#    if n % 2 != 0:
+#        print(n)
+
+# Define function
+def get_odds():
+    for integer in range(10):
+        if integer % 2 != 0:  # Checks if integer is odd
+            yield integer
+
+# For loop to iterate over range and print the third odd number
+count = 0               # initialize count to zero to start
+for odd in get_odds():  # reference original func
+    count += 1          # step
+    if count == 3:
+        print(f"In the range 0-10, the third odd integer is: {odd}")
+        break
