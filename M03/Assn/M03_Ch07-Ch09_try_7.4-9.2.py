@@ -1,5 +1,5 @@
 '''
-M02 Programming Assignment - Loops and Conditionals
+M03 Programming Assignment - Lists and Functions
 Author: Nelson Marte
 completed 04-07-2025
 Assignment:
